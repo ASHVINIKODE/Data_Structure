@@ -29,10 +29,10 @@ class CountNumberOfNodes {
         void traverse() {
             Node temp = head;
             while (temp != null) {
-                System.out.println(temp.data + "->");
+                System.out.print(temp.data + "->");
                 temp = temp.next;
             }
-            System.out.println("Null");
+            System.out.print("Null");
         }
     }
 
@@ -45,7 +45,7 @@ class CountNumberOfNodes {
 
         list.traverse();
         int result = list.count(list.head);
-        System.out.println("Number of nodes:" + result);
+        System.out.println(" Number of nodes:" + result);
 
     }
 }
