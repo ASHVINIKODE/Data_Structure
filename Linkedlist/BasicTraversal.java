@@ -22,7 +22,7 @@ class BasicTraversal {
                 System.out.print(temp.data + "->");
                 temp = temp.next;
             }
-            System.out.println("null");
+            System.out.print("null");
         }
     }
 
