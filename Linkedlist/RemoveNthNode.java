@@ -48,7 +48,7 @@ public class RemoveNthNode {
 
         System.out.println("Original List:");
         printList(head);
-        int n = 2;
+        int n = 5;
 
         head = removeNth(head, n);
 
